@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-var server = app.listen(3000,()=>{
+var server = app.listen(80,()=>{
     console.log('Server is running')
 })
 
